@@ -1,0 +1,16 @@
+h4 {
+  color: #80D8FF;
+  text-align: center;
+  font-family: Cambria;
+  font-size: 60px;
+  margin-top: 50px;
+}
+body {
+  background-image: url("imagenes/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+}
