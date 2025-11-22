@@ -1,0 +1,20 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("imagenes/fondo\ natural.jpg");
+  text-align: center;
+  font-family: cursive;
+}
+.menu {
+  background-image: url("imagenes/fondo\ 2.png");
+  text-align: center;
+  font-family: cursive;
+  font-weight: BOLDER;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
