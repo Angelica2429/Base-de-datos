@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Tipos de gatos</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="imagenes/gato logo.jpg"
+            alt="Logo"
+            width="60"
+            height="60"
+            class="me-2"
+          />
+          <span>Huellas Perdidas</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Adopta.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Quienes_somos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid p-0">
+      <img
+        src="imagenes/gato_comiendo.jpg"
+        class="img-fluid w-100"
+        alt="Gato comiendo"
+        style="height: auto; object-fit: cover"
+      />
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Nuestra Historia
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Huellas Perdidas nació del amor por los gatos.</strong>
+            Somos un grupo de voluntarios comprometidos con rescatar y cuidar
+            gatos abandonados, brindándoles un hogar temporal mientras buscamos
+            familias responsables que los adopten. Cada gatito recibe atención
+            médica, alimento y cariño hasta que encuentre su familia ideal.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Nuestra Misión
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong
+              >Queremos crear un mundo donde ningún gato esté solo o
+              abandonado.</strong
+            >
+            Trabajamos para educar a la comunidad sobre la adopción responsable,
+            la importancia de la esterilización y el cuidado animal. Nuestro
+            objetivo es que cada gatito tenga una segunda oportunidad de ser
+            feliz en un hogar amoroso.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Nuestros Valores
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Amor, compromiso y respeto por la vida animal.</strong> Cada
+            acción que realizamos está guiada por la ética y el bienestar de los
+            gatos. Fomentamos la responsabilidad de los adoptantes y trabajamos
+            para fortalecer el vínculo entre humanos y animales.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="row">
+      <!-- Menú lateral -->
+      <div class="col-4">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1"
+            >Programas</a
+          >
+          <a class="list-group-item list-group-item-action" href="#list-item-2"
+            >Cómo ayudar</a
+          >
+          <a class="list-group-item list-group-item-action" href="#list-item-3"
+            >Preguntas frecuentes</a
+          >
+          <a class="list-group-item list-group-item-action" href="#list-item-4"
+            >Aliados y Colaboradores</a
+          >
+          <a class="list-group-item list-group-item-action" href="#list-item-5"
+            >Eventos y Actividades</a
+          >
+        </div>
+      </div>
+
+      <div class="col-8">
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#list-example"
+          data-bs-smooth-scroll="true"
+          class="scrollspy-example"
+          tabindex="0"
+          style="
+            height: 500px;
+            overflow-y: scroll;
+            padding: 10px;
+            border: 1px solid #ddd;
+          "
+        >
+          <h4 id="list-item-1">Programas</h4>
+          <p>
+            En Huellas Perdidas desarrollamos múltiples programas para
+            garantizar el bienestar de los gatos. Rescatamos gatos abandonados o
+            heridos y les brindamos atención médica, incluyendo vacunas y
+            tratamientos necesarios. Proporcionamos alimentación, espacios
+            seguros y cuidado integral para su recuperación. Además, organizamos
+            campañas de esterilización para controlar la población felina y
+            prevenir el abandono. También realizamos talleres educativos para la
+            comunidad sobre adopción responsable y cuidado de los gatos, y
+            organizamos eventos de adopción donde los gatitos pueden encontrar
+            un hogar definitivo.
+          </p>
+
+          <h4 id="list-item-2">Cómo ayudar</h4>
+          <p>
+            Existen muchas formas de apoyar a Huellas Perdidas. Puedes ser
+            voluntario y ayudar en rescates, cuidado de los gatos y organización
+            de eventos. Las donaciones, ya sean en alimentos, medicinas,
+            juguetes o dinero, son siempre bienvenidas y se utilizan
+            directamente para el bienestar de los gatos. También puedes ayudar
+            difundiendo nuestras publicaciones en redes sociales para llegar a
+            más adoptantes potenciales. Adoptar de manera responsable o
+            apadrinar a un gato temporalmente son otras formas de contribuir y
+            hacer una diferencia en la vida de estos animales.
+          </p>
+          <h4 id="list-item-3">Preguntas frecuentes:Antes de adoptar</h4>
+          <p>
+            Muchos adoptantes primerizos tienen dudas sobre cómo cuidar a un
+            gato, qué esperar de la adopción y cómo integrarlo en su hogar. En
+            esta sección respondemos preguntas frecuentes, como alimentación,
+            cuidados de salud, convivencia con otros animales y consejos para
+            una adopción exitosa. Esta información ayuda a garantizar que cada
+            gato llegue a un hogar preparado y amoroso.
+          </p>
+          <h4 id="list-item-4">Aliados y Colaboradores</h4>
+          <p>
+            Huellas Perdidas trabaja estrechamente con diversas organizaciones y
+            personas que comparten nuestra pasión por el bienestar animal. Entre
+            nuestros aliados se encuentran veterinarias locales, que nos brindan
+            atención médica, vacunas y tratamientos a precios solidarios o
+            gratuitos para los gatos rescatados. También contamos con el apoyo
+            de tiendas de mascotas, que donan alimento, arena sanitaria y
+            juguetes, asegurando que los gatitos tengan todo lo necesario
+            mientras esperan un hogar. Además, colaboramos con fundaciones y
+            asociaciones de protección animal, con las que realizamos campañas
+            conjuntas de esterilización, educación sobre adopción responsable y
+            eventos de concientización en la comunidad.
+          </p>
+          <h4 id="list-item-5">
+            Eventos y Actividades: Jornadas de adopción y campañas de
+            concientización
+          </h4>
+          <p>
+            Huellas Perdidas organiza regularmente ferias de adopción, talleres
+            educativos y campañas de esterilización para la comunidad. Estos
+            eventos no solo ayudan a encontrar hogares para los gatos, sino que
+            también educan sobre la tenencia responsable y fomentan el cuidado
+            de los animales en general. Aquí podrás conocer las actividades
+            pasadas, las fechas de próximos eventos y cómo participar.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

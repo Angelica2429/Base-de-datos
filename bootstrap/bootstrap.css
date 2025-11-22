@@ -6,7 +6,7 @@ body {
   position: center;
 }
 .menu {
-  background-image: url("imagenes/fondo2.png");
+  background-image: url("imagenes/color\ fondo\ gato.jpg");
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,4 @@ h2 {
   font-size: 90px;
   color: #000000;
   margin-top: 20px;
-}
-p {
-  color: #010b20;
 }
