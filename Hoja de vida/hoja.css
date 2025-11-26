@@ -22,8 +22,8 @@ img {
   font-size: 30px;
   position: absolute;
   left: 450px;
-  top: 60px;
-  width: 60%;
+  top: 90px;
+  width: 80%;
   margin-left: 40px;
 }
 .nombre {
@@ -44,5 +44,5 @@ img {
 .col {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
 }
