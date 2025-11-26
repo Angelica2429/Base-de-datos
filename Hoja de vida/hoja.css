@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(252, 232, 202);
+}
+
+img {
+  margin-left: -20px;
+}
+.lado-izquierdo {
+  background-color: rgb(159, 228, 138);
+  width: 455px;
+  padding: 100px;
+  height: 60%;
+}
+.titulo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: -10px;
+  font-size: 24px;
+}
+.lado-derecho {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left: 450px;
+  top: 60px;
+  width: 60%;
+  margin-left: 40px;
+}
+.nombre {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 50px;
+}
+.competencia {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 40px;
+}
+.contenedor-competencias {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 20px;
+}
+.col {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 20px;
+}
